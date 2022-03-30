@@ -18,6 +18,7 @@ document.querySelector('.again').addEventListener('click', function(){
     document.querySelector('.message').textContent = 'Start guessing...';
     document.querySelector('.guess').value = NaN;
     document.querySelector('body').style.backgroundColor = '#222'
+    document.querySelector('.number').textContent = '?';
 })
 
 
@@ -38,4 +39,3 @@ document.querySelector('.check').addEventListener('click', function(){
         downScore()
     }
 })
->>>>>>> Stashed changes
